@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
-import clientPromise from "../../../lib/mongodb";
-const client = await clientPromise;
-const db = client.db("RecipeAppData");
+// import clientPromise from "../../../lib/mongodb";
+// const client = await clientPromise;
+// const db = client.db("RecipeAppData");
 import { ObjectId } from "bson";
 
 export async function GET(request) {
